@@ -44,18 +44,18 @@ export default function Home(props) {
 						Software engineering gave me a plethora	of tools and skills for me to work in the sustainability sector and allows me to dive further into my passion for stewardship. 
 					</h3>
 					<h2 className= 'susHeader' > Why Sustainability? </h2>
-					<h3 className= 'susStory' > Since I was a child, I never understood why humans have treated our planet the way we have. 
+					{/* <h3 className= 'susStory' > Since I was a child, I never understood why humans have treated our planet the way we have. 
 						<br/>
-						{/* Learning about sustainability brought forth a lot of personal challenges. In essence, my major encompassed the conept of problem and solution. 
+						* Learning about sustainability brought forth a lot of personal challenges. In essence, my major encompassed the conept of problem and solution. 
 						When you dive deep into learning about problems, you begin to understand hard truths about the inner workings of our systems, as well as the depravity of man. 
 						My years in learning about sustainability brought forth times of mental darkness as I wallowed in my own thoughts. Savior complex, along with a healthy dose of white 
 						guit overtake a young person learing about the world. I spent years contending with an immense burden I put on myself for everything I thought I caused. It was not 
 						until I got older when I realized the powers that be depend on folks feeling the way I do to drive our wedge of divison ever so deeper. I was flabberghasted and disgusted. 
 						I abandoned identity politics, did away with my "us vs. them" mentality, and realized we're all humans who've been unwittingly ensared in a shell game played by the 
-						faceless corporate elite. This is called "growth" my friends.  */}
+						faceless corporate elite. This is called "growth" my friends.  
 						My journey with sustainability
 						<br/>
-					</h3>
+					</h3> */}
 
 					 {/* <h3> I graduated from Messiah University with a B.A. in Sustainability Studies
 						with a concentration in Agriculture. My studies included plant science, ecology, political science, 

@@ -5,15 +5,14 @@ const PORT = process.env.PORT || 8000;
 const mongoose = require('mongoose');
 const path = require('path');
 
-/* Add MongoDB here after connecting database in .env
-const MONGODB_URI = process.env.MONGODB_URI
+//Add MongoDB here after connecting database in .env
+const MONGO_URI = process.env.MONGO_URI
 const db = mongoose.connection;
 
-mongoose.connect(MONGODB_URI);
+mongoose.connect(MONGO_URI);
 db.on('open', () => {
     console.log('Mongo is Connected');
 });
-*/
 
 /* Middleware */
 app.use(express.json());
