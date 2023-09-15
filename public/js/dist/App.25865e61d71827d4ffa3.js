@@ -121,9 +121,7 @@ function Home(props) {
     className: "story"
   }, " I began my journey into software development in the most unexpected place: the woods in Pennsylvania. I remember how I first realized our human connection with nature, and how I developed my passion for environmental sustainability. I decided to major in Sustainability Studies with a concentration in Sustainable Agriculture. Originally, I wanted to own and run urban gardens to help out with our nations problems with food deserts. Fast-forward to graduation: I left my university with a wealth of knowledge about issues with sustainability. I did not know how, or where, I could apply my skills.", /*#__PURE__*/React.createElement("br", null), "I found a home primarily in the greenhouse and landscaping industries. While working these jobs helped me develop a wide variety of skills, I was still thirsting to be able to apply my college degree somewhere.", /*#__PURE__*/React.createElement("br", null), "I found software engineering on a whim, based on suggestions from friends and peers amid the conversations we shared. Looking into this field made becoming an engineer feel as though I would set aside my knowledge of sustainability for something else. I could not be happier to be wrong! Software engineering gave me a plethora of tools and skills for me to work in the sustainability sector and allows me to dive further into my passion for stewardship."), /*#__PURE__*/React.createElement("h2", {
     className: "susHeader"
-  }, " Why Sustainability? "), /*#__PURE__*/React.createElement("h3", {
-    className: "susStory"
-  }, " Since I was a child, I never understood why humans have treated our planet the way we have.", /*#__PURE__*/React.createElement("br", null), "My journey with sustainability", /*#__PURE__*/React.createElement("br", null))), /*#__PURE__*/React.createElement("a", {
+  }, " Why Sustainability? ")), /*#__PURE__*/React.createElement("a", {
     href: "./img/Resume.pdf"
   }, " ", /*#__PURE__*/React.createElement("h1", null, "Resume "))));
 }
@@ -423,4 +421,4 @@ const routes = [{
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.95613e3b2751b2d54432f69b48a4d94d.js.map
+//# sourceMappingURL=App.b0fd530945495fe3f5d253810da17f5a.js.map

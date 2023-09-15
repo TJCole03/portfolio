@@ -43,7 +43,7 @@ export default function Home(props) {
 						made becoming an engineer feel as though I would set aside my knowledge of sustainability for something else. I could not be happier to be wrong! 
 						Software engineering gave me a plethora	of tools and skills for me to work in the sustainability sector and allows me to dive further into my passion for stewardship. 
 					</h3>
-					<h2 className= 'susHeader' > Why Sustainability? </h2>
+					{/* <h2 className= 'susHeader' > Why Sustainability? </h2> */}
 					{/* <h3 className= 'susStory' > Since I was a child, I never understood why humans have treated our planet the way we have. 
 						<br/>
 						* Learning about sustainability brought forth a lot of personal challenges. In essence, my major encompassed the conept of problem and solution. 
