@@ -1,0 +1,189 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import "reset";
+@import "grid";
+
+body {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(-145deg, rgb(92, 181, 92), rgb(192, 137, 55)); 
+
+
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #f0f0f0;
+  height: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+  color: orangered;
+  a {
+    color: orangered;
+    text-decoration: none;
+    &:link, &:visited {
+      color: orangered;
+      text-decoration: none;
+    }
+  }
+}
+
+.HomePage {
+
+  background-image: linear-gradient(-145deg, rgb(92, 181, 92), rgb(192, 137, 55)); 
+  height: 850px; 
+
+  .header {
+    font-size: 5rem;
+  }
+  .div {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .proPic {
+    margin-top: 3rem;
+  }
+
+  .intro {
+    font-size: 3.5rem;
+    margin: 5rem;
+  }
+
+  .titles {
+    font-size: 1.5rem; 
+    margin-bottom: 5rem;
+    border: outset gold 4px;
+    background-color: rgba(240, 255, 255, 0.784);
+    color: black;
+  }
+  .based {
+    font-size: 1.5rem; 
+    margin-bottom: 5rem;
+    border: outset gold 4px;
+    background-color: rgba(240, 255, 255, 0.784);
+    color: black;
+
+  }
+
+  .skills {
+    display: flex; 
+    border: outset gold 4px;
+    align-items: center;
+    justify-content: center;
+    height: 6rem; 
+    width: fit-content;
+    background-color: rgba(240, 255, 255, 0.784);
+    margin-bottom: 5rem;
+
+    .skillListHeader  {
+      color: rgb(198, 99, 99);
+      padding-right: 1rem;
+
+      
+    }
+
+    .skillList {
+      display: flex;
+      flex-direction: column;
+      color: rgb(130, 130, 130);
+    }
+
+  }
+
+  .storyContainer {
+
+    .storyHeader {
+      width: fit-content;
+      background-color: rgba(240, 255, 255, 0.784);
+      color: black;
+      margin-top: .2rem;
+      padding: .5rem;
+      border: outset gold 4px;
+      background-color: rgba(240, 255, 255, 0.784);
+  
+    }
+
+    .story {
+      width: fit-content;
+      margin-top: .2rem;
+      padding: .5rem;
+      border: outset gold 4px;
+      background-color: rgba(240, 255, 255, 0.784);
+      color: black;
+      font-size: 24px;
+    }
+
+  }
+
+}
+
+.ProjectPage {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: radial-gradient(green, aqua);
+
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .solitaireContainer {
+    font-size: 24px;
+    border: groove rgb(43, 101, 216) 3px;
+    margin: 5rem;
+  }
+
+  .tomatoesContainer {
+    font-size: 24px;
+    border: groove rgb(43, 101, 216) 3px;
+    margin: 5rem;
+  }
+
+  .animalContainer {
+    font-size: 24px;
+    border: groove rgb(43, 101, 216) 3px;
+    margin: 5rem;
+  }
+
+  .solitaireImg {
+    height: 24rem; 
+    width: 48rem;
+  }
+
+  .animalDrumsImg {
+    height: 24rem; 
+    width: 48rem;
+  }
+
+}
+
+.ContactPage{
+
+  .findMe {
+    font-size: 6rem;
+    color: rgb(202, 46, 46);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10rem;
+    height: 100%;
+    width: 100%;
+
+  }
+
+}
+
+.AppPage {
+  h1 {
+    font-size: 3rem;
+  }
+
+}
